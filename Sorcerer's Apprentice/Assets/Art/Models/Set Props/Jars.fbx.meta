@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 0e3e2640346ed434b926f4ee239ead99
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Jar1
+    100002: Jar1_lid
+    100004: Jar1_liquid
+    100006: Jar2
+    100008: Jar2_lid
+    100010: Jar2_liquid
+    100012: Jar3
+    100014: Jar3_lid
+    100016: Jar3_liquid
+    100018: //RootNode
+    100020: Glass_Shards1
+    100022: Glass_Shards2
+    100024: Glass_Shards3
+    100026: Jar1_broken
+    100028: Jar2_broken
+    100030: Jar3_broken
+    400000: Jar1
+    400002: Jar1_lid
+    400004: Jar1_liquid
+    400006: Jar2
+    400008: Jar2_lid
+    400010: Jar2_liquid
+    400012: Jar3
+    400014: Jar3_lid
+    400016: Jar3_liquid
+    400018: //RootNode
+    400020: Glass_Shards1
+    400022: Glass_Shards2
+    400024: Glass_Shards3
+    400026: Jar1_broken
+    400028: Jar2_broken
+    400030: Jar3_broken
+    2100000: Jars
+    2100002: jar_liquid
+    2300000: Jar1
+    2300002: Jar1_lid
+    2300004: Jar1_liquid
+    2300006: Jar2
+    2300008: Jar2_lid
+    2300010: Jar2_liquid
+    2300012: Jar3
+    2300014: Jar3_lid
+    2300016: Jar3_liquid
+    2300018: Glass_Shards1
+    2300020: Glass_Shards2
+    2300022: Glass_Shards3
+    2300024: Jar1_broken
+    2300026: Jar2_broken
+    2300028: Jar3_broken
+    3300000: Jar1
+    3300002: Jar1_lid
+    3300004: Jar1_liquid
+    3300006: Jar2
+    3300008: Jar2_lid
+    3300010: Jar2_liquid
+    3300012: Jar3
+    3300014: Jar3_lid
+    3300016: Jar3_liquid
+    3300018: Glass_Shards1
+    3300020: Glass_Shards2
+    3300022: Glass_Shards3
+    3300024: Jar1_broken
+    3300026: Jar2_broken
+    3300028: Jar3_broken
+    4300000: Jar3
+    4300002: Jar3_liquid
+    4300004: Jar3_lid
+    4300006: Jar2
+    4300008: Jar2_lid
+    4300010: Jar2_liquid
+    4300012: Jar1
+    4300014: Jar1_liquid
+    4300016: Jar1_lid
+    4300018: Glass_Shards3
+    4300020: Glass_Shards2
+    4300022: Glass_Shards1
+    4300024: Jar1_broken
+    4300026: Jar2_broken
+    4300028: Jar3_broken
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jars
+    second: {fileID: 2100000, guid: 69f72aa12127d094b832e6d6b5fefc17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jar_liquid
+    second: {fileID: 2100000, guid: 27c9904acd787474a860c8b69c29f735, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
