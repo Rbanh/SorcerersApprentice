@@ -18,7 +18,7 @@ MonoBehaviour:
   - {fileID: 114926529047624142}
   - {fileID: 114766690986127606}
   - {fileID: 114365610642768532}
-  - {fileID: 114629677100311380}
+  - {fileID: 114578432294929904}
   - {fileID: 114416150543908578}
   - {fileID: 114142363493711366}
 --- !u!114 &114015055215414410
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   speedDown:
     overrideState: 0
     value: 1
---- !u!114 &114629677100311380
+--- !u!114 &114578432294929904
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1445,17 +1445,17 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   focusDistance:
-    overrideState: 1
-    value: 1
+    overrideState: 0
+    value: 10
   aperture:
-    overrideState: 1
-    value: 14.7
+    overrideState: 0
+    value: 5.6
   focalLength:
-    overrideState: 1
-    value: 30
+    overrideState: 0
+    value: 50
   kernelSize:
-    overrideState: 1
-    value: 2
+    overrideState: 0
+    value: 1
 --- !u!114 &114766690986127606
 MonoBehaviour:
   m_ObjectHideFlags: 3

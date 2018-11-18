@@ -75,6 +75,17 @@ namespace UnityTemplateProjects
         [Tooltip("Whether or not to invert our Y axis for mouse input to rotation.")]
         public bool invertY = false;
 
+        [Range(1,4)]
+        public int screenshotRes = 1;
+        public string screenshotName = "Capture";
+        string screenshotPath;
+        int i = 0;
+
+        public void Awake()
+            {
+                screenshotPath = Application.dataPath;
+            }
+
         void OnEnable()
         {
             m_TargetCameraState.SetFromTransform(transform);
@@ -114,6 +125,12 @@ namespace UnityTemplateProjects
         void Update()
         {
             // Exit Sample  
+            if (Input.GetButtonDown("Screenshot"))
+            {   
+                ScreenCapture.CaptureScreenshot( screenshotPath + "/Screenshots/"+ screenshotName + "." + i + ".png", screenshotRes);
+                Debug.Log("Screenshot " + screenshotName + "." + i + " Succesful.");
+                i++;
+            }
 
             if (Input.GetKey(KeyCode.Escape))
             {
