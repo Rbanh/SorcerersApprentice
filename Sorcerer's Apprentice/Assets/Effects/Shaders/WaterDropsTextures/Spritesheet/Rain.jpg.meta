@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 75d7c5171aa32724d86afec0d7125b18
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -37,7 +37,7 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -60,7 +60,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
@@ -71,7 +71,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
@@ -83,7 +83,7 @@ TextureImporter:
   - serializedVersion: 2
     buildTarget: iPhone
     maxTextureSize: 8192
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -94,7 +94,7 @@ TextureImporter:
   - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 8192
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -105,7 +105,7 @@ TextureImporter:
   - serializedVersion: 2
     buildTarget: Windows Store Apps
     maxTextureSize: 8192
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -120,10 +120,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 15fe37b4c66a2f64084dfe981ea444b0
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -8,13 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ceiling_Windows
-  m_Shader: {fileID: 4800000, guid: 8ffe4880510fa484cb125cdfad823c39, type: 3}
+  m_Shader: {fileID: 4800000, guid: 868cc8e59eda023479641a52c8e9aa06, type: 3}
   m_ShaderKeywords: _BLENDMODE_ALPHA _ENABLESPECULAROCCLUSION _ENABLE_FOG_ON_TRANSPARENT
     _ENABLE_GEOMETRIC_SPECULAR_AA _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_DUAL_SPECULAR_LOBE
     _NORMALMAP_TANGENT_SPACE _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
@@ -34,6 +34,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: c5e73740b22d9314bb22b5e6a974da20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_67C66F42_Texture:
+        m_Texture: {fileID: 2800000, guid: 75d7c5171aa32724d86afec0d7125b18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_880117E2_Texture:
         m_Texture: {fileID: 2800000, guid: d46bb0f5179ace14681a476254e4d8db, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -43,15 +47,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_13D35C41: 0.6
-    - Vector1_5C4BF222: 0.862
-    - Vector1_815C04CF: -0.72
-    - Vector1_82E5B3DD: 0.64
+    - Vector1_13D35C41: 1
+    - Vector1_15B2BD72: 10
+    - Vector1_46FDCA69: 1
+    - Vector1_5C4BF222: 1
+    - Vector1_815C04CF: -0.03
+    - Vector1_82E5B3DD: 238.26
+    - Vector1_90FD1979: 1.03
     - Vector1_98DD39CE: 1.9
-    - Vector1_A5C5CC5D: 2.06
-    - Vector1_E759CFC7: 7.48
-    - Vector1_E93F90B6: 5
-    - Vector1_F6AB4527: 14.02
+    - Vector1_A5C5CC5D: 2.22
+    - Vector1_D30D2C45: 20
+    - Vector1_E759CFC7: 2
+    - Vector1_E93F90B6: 3.22
+    - Vector1_F6AB4527: 10
     m_Colors:
-    - Vector2_DEF44BD: {r: 2, g: 2, b: 1, a: 1}
+    - Color_F990AD76: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_54675AF7: {r: 0, g: 0.1, b: 0, a: 0}
+    - Vector2_85B899A0: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector2_DEF44BD: {r: 2, g: 4, b: 2, a: -4.65}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

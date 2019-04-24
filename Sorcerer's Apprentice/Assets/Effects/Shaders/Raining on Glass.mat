@@ -11,13 +11,12 @@ Material:
   m_Shader: {fileID: 4800000, guid: 8ffe4880510fa484cb125cdfad823c39, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
-  disabledShaderPasses:
-  - MOTIONVECTORS
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -150,13 +149,17 @@ Material:
     - Vector1_15B2BD72: 0
     - Vector1_46FDCA69: 1
     - Vector1_5C4BF222: 1
-    - Vector1_82E5B3DD: 70.85
+    - Vector1_815C04CF: 0
+    - Vector1_82E5B3DD: 10
+    - Vector1_8563821B: 0.7
     - Vector1_90FD1979: 2.01
-    - Vector1_98DD39CE: 0.35
-    - Vector1_A5C5CC5D: 1
+    - Vector1_98DD39CE: 1.17
+    - Vector1_A5C5CC5D: 1.4
+    - Vector1_ACF0C623: 0.87
     - Vector1_D30D2C45: 0.1
-    - Vector1_E93F90B6: 4.96
-    - Vector1_F6AB4527: 0.69
+    - Vector1_E759CFC7: 4
+    - Vector1_E93F90B6: 1.53
+    - Vector1_F6AB4527: 2
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -268,6 +271,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_F990AD76: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_DEF44BD: {r: 1, g: 2, b: 1, a: 5}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
